@@ -1,0 +1,493 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*   entire webpage component--------------------------*/
+
+/*  Header component (ALL) top-------------------------*/
+
+.header {
+    height: 150px;
+    background: #272638;
+    border-bottom: 1px solid gray;
+}
+
+/*end of header compenent-------------------------------*/
+
+.parent {
+    position: relative;
+}
+
+.header__logo img {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 25px;
+    left: -115px;
+    border-radius: 5px;
+}
+/*end of header img-------------------------------------*/
+
+
+.header__logoTitle {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: -35px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 2;
+}
+
+.header__logoTitleTwo {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    top: 55px;
+    left: -35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: #797888;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.header__logoTitle p{
+    font-size: 14px;
+}
+
+.header__logoTitle span {
+    font-weight: bold;
+}
+/*end of company title----------------------------------*/
+
+/* header__nav component top---------------------------*/
+
+.header__nav {
+    padding-left: 10px;
+    height: 45px;
+    margin-top: 63px;
+}
+
+.header__nav li {
+    padding: 10px;
+    display: inline;
+}
+
+.header__nav a{
+    text-decoration: none;
+    color: #797888;
+}
+
+.header__nav a:hover {
+    color: white;
+}
+/*header__nav component end----------------------------*/
+
+/*Header component (ALL) end---------------------------*/
+
+/*main top---------------------------------------------*/
+
+/* hero section top------------------------------------*/
+
+.colorOne {
+    background: #272437;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hero {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.hero--gradient {
+    margin: 0px;
+    background: -webkit-linear-gradient(#b9b6c9, #676676);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero--spanOne {
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.hero--enlarge {
+    font-size: 40px;
+}
+
+.hero p {
+    margin: 40px 160px;
+    color: #676676;
+}
+
+.colorOne a {
+    padding: 10px 25px;
+    background: #676676;
+    border-radius: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+}
+
+/* hero section end------------------------------------*/
+
+/* colorTwo top (top info half)-----------------------*/
+
+.colorTwo {
+    background: #e1895b;
+    color: white;
+}
+
+.colorTwo img{
+    margin-bottom: 15px;
+    height: 80px;
+    width: 80px;
+    /*border: 15px solid #605d78; [kept because it shrank images, yet it caused a weird orange inner border]*/ 
+    border-radius: 50%;
+}
+
+/*end of img for orangeish infoslot--------------------*/
+
+.adjust {
+    margin-top: 70px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.adjust h3 {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.adjust span{
+    font-weight: 100;
+    display: inherit;
+}
+
+.adjust p {
+    margin: 0px;
+    color: black;
+}
+/* end of lorem text in orangeish infoslot--------------*/
+
+/* colorTwo end (orangeish infoslot)--------------------*/
+
+.colorThree {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: #e8e8e8;
+    color: white;
+}
+
+/*end of colorThree (greyish infoslot)---------------*/
+
+/*greybar top---------------------------------------*/
+
+/*grey--topbar (top)--------------------------------*/
+
+.topHalfGrey {
+    height: 50px;
+    margin: 0px;
+    padding-top: 15px;
+    background: #6d6a87;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid rgb(124, 124, 124);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*grey--topbar (end)--------------------------------*/
+
+/*grey--bottombar (top)-----------------------------*/
+
+.bottomHalfGrey{
+    height: 60px;
+    margin: 0px;
+    padding-top: 10px;
+    background: #6d6a87;
+    color: #cfcce9;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*grey--bottombar (end)-----------------------------*/
+
+/*color top (for the month slash)-------------------*/
+
+.moColor {
+    margin-left: -8px;
+    color: orange;
+    font-size: 20px;
+}
+
+/*color end (for the month slash)-------------------*/
+
+/*greytriangle top---------------------------------*/
+
+.tinySquare {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 7%;
+    height: 30px;
+    width: 30px;
+    border-top-left-radius: 50px;
+    background: #6d6a87;
+    transform: rotate(45deg);
+}
+
+/*greytriangle end----------------------------------*/
+
+/*greybar end---------------------------------------*/
+
+.colorThree ul {
+    margin: 0px;
+    padding: 0px;
+    background: white;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+}
+
+.colorThree li {
+    font-size: 12px;
+    line-height: 3;
+    text-align: center;
+    list-style-type: none;
+}
+
+.padding {
+    padding-top: 15px;
+}
+
+.aLinkPadding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.greyLine {
+    background: #e8e8e8;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+}
+
+/*end of info in list format for "greyish info slot"---*/
+
+.colorThree a {
+    padding: 10px 40px;
+    background: orange;
+    border-radius: 5%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 2.5;
+}
+
+/*end of link buttons for greyish info slot-------------*/
+
+/*end of greyish info slot------------------------------*/
+
+/*main end---------------------------------------------*/
+
+
+.footer {
+    padding-top: 50px;
+    background: #2b2839;
+    color: white;
+}
+
+/* end of footer main component---------------------------*/
+
+.topInfo {
+    padding-bottom: 70px;
+}
+
+.topInfo h3 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.topInfo ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.topInfo li::before {
+    padding-right: 10px;
+    width: 1em;
+    font-weight: bold;
+    color: orange;
+    content: "\2022";
+}
+
+.topInfo p {
+    margin-bottom: 40px;
+    color: #5a576a;
+}
+
+.topInfo a {
+    padding: 0px 10px;
+    background: orange;
+    border: 10px solid orange;
+    border-radius: 5%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    line-height: 3;
+}
+/*end of blackish info slots---------------------------------------*/
+
+.colorFour {
+    background: #322f40;
+}
+
+.companies {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.companies ul {
+    padding: 0px;
+    
+}
+
+.companies li{
+    list-style-type: none;
+    display: inline;
+}
+
+.companies img {
+    height: 80px;
+    width: 200px;
+}
+
+
+/*end of co-op companies----------------------------------*/
+
+.colorFive {
+    height: 150px;
+    background: #1b1a22;
+}
+
+/*end of copyright compenent-------------------------------*/
+.footer__logo {
+    position: absolute;
+}
+
+.margin {
+    margin-left: 10px;
+}
+
+.footer__logo img {
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.footer__logoTitle {
+    margin-top: -60px;
+    margin-left: 110px;
+    color: #373542;
+}
+
+.footer__logoTitle span {
+    font-weight: bold;
+    color: #4e4c5a;
+}
+
+.footer__logoTitleTwo {
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 110px;
+    color: #4e4c5a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+/*end of footer logo-------------------------------------------*/
+
+.copyright {
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 25%;
+    color: rgb(78, 76, 90);
+    font-size: 18px;
+}
+
+.date {
+    border-left: 1px solid #4e4c5a;
+    padding-left: 5px;
+}
+
+/*end of copyright-------------------------------------------*/
+
+
+.social {
+    position: absolute;
+    top: 10px;
+    right: -15%;
+
+}
+
+.social li {
+    display: inline;
+}
+
+.fab {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #282536;
+    color: white;
+    text-align: center;
+    line-height: 2.5;
+}
+
+/* this was added for the rss icon----------------------------*/
+
+.fas {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #282536;
+    color: white;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.social i:hover {
+    background: #6b6885;
+}
+
+/*end of social----------------------------------------------*/
+
+/*end of footer---------------------------------------------*/
+

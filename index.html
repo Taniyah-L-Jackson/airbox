@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Airbox</title>
+    <!--for custom fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!--for custom icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--additional work-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/960.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+    <!-- crash course in using BEM: 
+        B: block (meaning parent)
+        E: element (the child)
+        M: modifier (the style you want to use)
+    -->
+  
+    
+<body>
+    <header class='header'>
+        
+        <div class="header__logo container_12">
+
+            <div class="grid_3">
+               <h1 class="parent">
+                    <img src="media/logo.JPG" alt="logo">
+
+                    <!--take out of ul-li structure-->
+                
+                    <p class='header__logoTitle'>AIR<span>BOX</span></p>
+                    <p class='header__logoTitleTwo'>HOSTING PROVIDER</p>
+                </h1> 
+            </div>
+            
+
+            <div class="grid_9">
+                <nav>
+                    <ul class='header__nav'>
+                        <li><a href="#link">HOME</a></li>
+                        <li><a href="#link">WEB HOSTING</a></li>
+                        <li><a href="#link">BESTSELLER HOSTING</a></li>
+                        <li><a href="#link">SERVICES</a></li>
+                        <li><a href="#link">BLOG</a></li>
+                        <li><a href="#link">CONTACTS</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--grid_6-->
+
+        </div>
+        <!--container_12-->
+       
+        
+        
+    </header>
+    <!-- /.header-->
+
+    <main>
+
+        <div class="colorOne">
+
+            <div class='container_12 hero'>
+
+                <div class="grid_12">
+                    <h2 class='hero--gradient'>24/7 REAL PERSON</h2>
+                    <h2 class='hero--spanOne'>CUSTOMER SUPPORT</h2>
+                    <h2 class='hero--gradient hero--enlarge'>FOR ALL OUR CLIENTS</h2>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed aliquid deserunt excepturi ullam nam numquam! Sit pariatur error dignissimos neque enim obcaecati ex, totam nesciunt vitae quam, deleniti laboriosam sint?
+                    </p>
+
+                    <a href="#link">TRY NOW</a>
+                </div>
+            
+            </div>
+            <!--/.container_12-->
+
+        </div>
+        <!--colorOne-->
+        
+        <div class="colorTwo">
+
+            <div class='container_12'>
+
+                <div class='adjust grid_3'>
+                    <img src="media/cog.JPG" alt="cogs">
+                    <h3>CONTROL<span>PANEL</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing edivt. Voluptates, eius?</p>
+                </div>
+
+                <div class='adjust grid_3'>
+                    <img src="media/world.JPG" alt="world web">
+                    <h3>MULTI-DOMAIN <span>HOSTING</span></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing edivt. Nulla, itaque?</p>
+                </div>
+
+                <div class='adjust grid_3'>
+                    <img src="media/cloud.JPG" alt="cloud storage">
+                    <h3>FTP<span>SERVICE</span></h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing edivt. Quia, nesciunt?</p>
+                </div>
+
+                <div class='adjust grid_3'>
+                    <img src="media/phone.JPG" alt="phone">
+                    <h3>DIRECT<span>SUPPORT</span></h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing edivt. Inventore, nobis.</p>
+                </div>
+
+            </div>
+            <!--/.container_12-->
+
+            <div class="clear"></div>
+
+        </div>
+        <!--/.colorTwo-->
+       
+
+        <div class="colorThree">
+            <div class='container_12'>
+            <!--nested divs with uls-->
+                <div class="grid_3">
+
+                    <h3 class='topHalfGrey'>MINI HOUSING</h3>
+                    <h3 class='bottomHalfGrey'>
+                        $10.99
+                        <span class='moColor'>
+                            /MO.</span>
+                        
+                    </h3>
+                    <!-- make all tiny squares span-->
+                    <span class='tinySquare'></span>
+
+                    <ul>
+                        <li class='padding'>Lorem, ipsum.</li>
+                        <li class='greyLine'>Non, eveniet!</li>
+                        <li>Sit, alias!</li>
+                        <li class="greyLine">Iusto, consectetur?</li>
+                        <li class='aLinkPadding'>
+                            <a href="#link">SIGN UP</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="grid_3">
+                    <h3 class='topHalfGrey'>USER HOSTING</h3>
+                    <h3 class='bottomHalfGrey'>$12.99
+                        <span class='moColor'>/MO.</span>
+                    </h3>
+                    <span class='tinySquare'></span>
+
+                    <ul>
+                        <li class="padding">Lorem, ipsum.</li>
+                        <li class="greyLine borderLines">Maiores, saepe!</li>
+                        <li>Pariatur, libero!</li>
+                        <li class="greyLine borderLines">Numquam, aperiam.</li>
+                        <li class="aLinkPadding">  <a href="#link">SIGN UP</a></li>
+                    </ul>
+
+                   
+                </div>
+
+                <div class="grid_3">
+                    <h3 class='topHalfGrey'>PRO HOSTING</h3>
+                    <h3 class='bottomHalfGrey'>$16.99
+                        <span class='moColor'>
+                            /MO.
+                        </span>
+
+                    </h3> 
+                    <span class='tinySquare'></span>
+
+                    <ul>
+                        <li class="padding">Lorem, ipsum.</li>
+                        <li class="greyLine borderLines">Autem, quam!</li>
+                        <li>Totam, ad!</li>
+                        <li class="greyLine borderLines">Maxime, a!</li>
+                        <li class="aLinkPadding"> <a href="#link">SIGN UP</a></li>
+                    </ul>
+
+                    
+                </div>
+
+                <div class='grid_3 colorOnly'>
+                    <h3 class='topHalfGrey'>MAIN HOSTING</h3>
+                    <h3 class='bottomHalfGrey'>$20.99
+                    <span class='moColor'>/MO.</span>
+                    </h3>
+                    <span class='tinySquare'></span>
+                    
+
+                    <ul>
+                        <li class='padding'>Lorem, ipsum.</li>
+                        <li class="greyLine borderLines">Repudiandae, odit!</li>
+                        <li>Explicabo, necessit.</li>
+                        <li class="greyLine borderLines">Ipsum, asperiores!</li>
+                        <li class='aLinkPadding'>
+                            <a href="#link">SIGN UP</a>
+                        </li>
+                    </ul>                    
+                </div>
+
+            </div>
+            <!-- /.container_12-->
+        </div>
+        <!-- /.color-->      
+    
+    </main>
+
+    <footer class='footer'>
+
+        <!--three secondary divs to seperate colors-->
+        <div class="topInfo container_12">
+
+            <!--nested divs with navs and uls-->
+            <div class='grid_3'>
+                <h3>HOSTING SERVICES</h3>
+
+                <ul>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </ul>
+
+                <p>
+                    Asperiores expedita vel voluptatibus ea corrupti perspiciatis aliquam facilis nulla
+                    provident distinctio, quis error tempore nemo blanditiis doloribus aut delectus quae
+                    molestiae iure velit, minus impedit sequi dolores. Hic, exercitationem. 
+                </p>
+                <a href="#link">SHOP NOW</a>
+            </div>
+
+            <div class="grid_3">
+                <h3>SERVER SOLUTIONS</h3>
+
+                <ul>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </ul>
+
+                <p>
+                    Asperiores expedita vel voluptatibus ea corrupti perspiciatis aliquam facilis nulla
+                    provident distinctio, quis error tempore nemo blanditiis doloribus aut delectus quae
+                    molestiae iure velit, minus impedit sequi dolores. Hic, exercitationem. 
+                </p>
+                <a href="#link">SHOP NOW</a>
+            </div>
+
+            <div class='grid_3'>
+                <h3>EMAIL SOLUTIONS</h3>
+
+                <ul>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </ul>
+
+                <p>
+                    Asperiores expedita vel voluptatibus ea corrupti perspiciatis aliquam facilis nulla
+                    provident distinctio, quis error tempore nemo blanditiis doloribus aut delectus quae
+                    molestiae iure velit, minus impedit sequi dolores. Hic, exercitationem. 
+                </p>
+                <a href="#link">SHOP NOW</a>
+            </div>
+
+            <div class="grid_3">
+                <h3>MORE PRODUCTS</h3>
+
+                <ul>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </ul>
+
+                <p>
+                    Asperiores expedita vel voluptatibus ea corrupti perspiciatis aliquam facilis nulla
+                    provident distinctio, quis error tempore nemo blanditiis doloribus aut delectus quae
+                    molestiae iure velit, minus impedit sequi dolores. Hic, exercitationem. 
+                </p>
+                <a href="#link">SHOP NOW</a>
+            </div>
+            <!--grid end -->
+        </div>
+        <!--container end-->
+        
+        <div class="colorFour">
+
+            <div class="container_12 companies">
+                <!--co-op companies' logos-->
+            
+                <div class='grid_3'>
+                    <img src="media/companyOne.JPG" alt="co-opLogo1">
+                </div>
+
+                <div class='grid_3'>
+                    <img src="media/companyTwo.JPG" alt="co-opLogo2">
+                </div>
+
+                <div class='grid_3'>
+                    <img src="media/companyThree.JPG" alt="co-opLogo3">
+                </div>
+
+                <div class='grid_3'>
+                    <img src="media/companyFour.JPG" alt="co-opLogo4">
+                </div>
+                <!--end of grid-->
+
+            </div>
+            <!--end of component-->
+
+        </div>
+        <!-- /.colorFour -->
+       
+        <div class="colorFive">
+            <div class="footer__logo container_12">
+
+                <div class="margin grid_8">
+
+                    <h1>
+                        <img src="media/logo.JPG" alt="logo">
+
+                        <p class='footer__logoTitle'>AIR<span>BOX</span></p>
+                        <p class='footer__logoTitleTwo'>HOSTING PROVIDER</p>
+
+                        <p class="copyright">&copy;2013
+
+                            <span class='date'> PRIVACY POLICY</span>
+                        
+                        </p>
+                    </h1>
+
+                </div>
+
+                <div class='grid_2'> 
+                    <ul class= 'social'>
+
+                        <li><i class="fab fa-facebook"></i><span class='sr-only'>facebook</span></li>
+
+                        <li><i class="fas fa-rss"></i><span class='sr-only'>RSS</span></li>
+
+                        <li><i class="fab fa-twitter"></i><span class='sr-only'>twitter</span></li>
+
+                        <li><i class="fab fa-google-plus"></i><span class='sr-only'>google plus</span></li>
+                    </ul>                    
+                </div>
+
+            </div>
+        <!--company logo-->
+
+        </div>
+        <!-- /.colorFive -->        
+
+    </footer>
+</body>
+
+</html>
